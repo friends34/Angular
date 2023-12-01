@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [StudentsServie],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
